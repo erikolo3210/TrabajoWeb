@@ -12,33 +12,46 @@
    margin: 40px;
    padding: 30px;
    position: relative;
-   border: 2px solid #000;
+  
   }
 
   /*Caracteristicas individuales*/
   #div1 {
-   background-color: #FFF;
+   background-color: rgb(168, 157, 0);
    left: 200px;
    top: 100px;
+   border-radius: 50%;
+   border: 2px solid rgb(0, 0, 0);
+  }
+  #mirame{
+    border-radius: 500%;
   }
 
   #div2 {
-   background-color: #008000;
+   background-color: #a30000;
    right: 50px;
    bottom: 50px;
+   border-top-right-radius: 50%;
+   border: 2px solid rgb(0, 0, 0);
   }
 
   #div3 {
    background-color: #0000FF;
    left: 450px;
-   bottom: 300px;
+   bottom: 450px;
+   border-top-left-radius: 50%;
+   border: 2px solid rgb(0, 0, 0);
   }
  </style>
 </head>
 
 <body>
  <div id="padre">
-  <div id="div1"></div>
+  <div id="div1">
+    
+          <img id="mirame" src="imagenes/wakeUpGuy.jpeg">
+      
+  </div>
   <div id="div2"></div>
   <div id="div3"></div>
  </div>
